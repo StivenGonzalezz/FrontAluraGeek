@@ -1,0 +1,40 @@
+{
+  "Articulos": [
+    {
+      "id": "2edc",
+      "nombre": "Maquinita Vintage",
+      "precio": "750.000",
+      "imagen": "https://res.cloudinary.com/dsqifcsx2/image/upload/v1718427336/imagen_2024-06-14_235517785-removebg-preview_dujk3p.png"
+    },
+    {
+      "id": "8c24",
+      "nombre": "Control Ps4",
+      "precio": "120.000",
+      "imagen": "https://res.cloudinary.com/dsqifcsx2/image/upload/v1717999629/controlPs4_f2f0d9.png"
+    },
+    {
+      "id": "bf82",
+      "nombre": "Game Boy",
+      "precio": "55.000",
+      "imagen": "https://res.cloudinary.com/dsqifcsx2/image/upload/v1717999629/gameBoy_zmwglk.png"
+    },
+    {
+      "id": "3d9d",
+      "nombre": "Ps2 chipeada",
+      "precio": "75.000",
+      "imagen": "https://res.cloudinary.com/dsqifcsx2/image/upload/v1718427293/imagen_2024-06-14_235436422-removebg-preview_abivmm.png"
+    },
+    {
+      "id": "71cf",
+      "nombre": "Memori Card 8MB",
+      "precio": "5.000",
+      "imagen": "https://res.cloudinary.com/dsqifcsx2/image/upload/v1717999629/memoryCard_xnrckm.png"
+    },
+    {
+      "id": "7496",
+      "nombre": "Peluche Gengar",
+      "precio": "99.000",
+      "imagen": "https://res.cloudinary.com/dsqifcsx2/image/upload/v1717999629/pelucheGengar_dgemiz.png"
+    }
+  ]
+}
