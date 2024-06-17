@@ -7,7 +7,10 @@ listarProductos();
 
 async function listarProductos() {
     try {
-        const listaArticulos = await conexionAPI.listarVideos();
+        while (lista.firstChild) {
+            lista.removeChild(lista.firstChild);
+        }
+        let listaArticulos = await conexionAPI.listarVideos();
         listaArticulos.forEach(element => {
             lista.appendChild(crearCard(element.nombre, element.precio, element.imagen, element.id));
         });
@@ -28,9 +31,12 @@ function crearCard(nombre, precio, imagen, id) {
         </div>
     `;
 
-    // Añadir el manejador de eventos al botón de eliminar
     const eliminarBtn = articulo.querySelector(".eliminar-btn"); 
     eliminarBtn.addEventListener("click", () => eliminar(id));
 
     return articulo;
+}
+
+export const mainConexion={
+    listarProductos,
 }
